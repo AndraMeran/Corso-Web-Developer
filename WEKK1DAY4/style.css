@@ -75,11 +75,14 @@ span{
     border-radius: 30px;
     height: 250px;
     width: 225px;
-    margin: 20px;
+    margin: 0 20px 10px;
 
 }
 .sottotitolo1{
     font-weight: normal;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-top: 15px;
 }
 .contenitore3{
     background-image: url(assets\ 2/img_9.png);
@@ -107,5 +110,22 @@ span{
     margin-bottom: 10px;
 
 }
-
-
+.logoamazonfine{
+    background-color: black;
+    display:flex;
+    background-image: url(assets\ 2/.logoamazon);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60px;
+    padding:30px 30px;
+    justify-content: center;
+}
+.backtop{
+    background-color: rgb(72, 70, 70);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    margin: 0;
+    padding: 5px;
+}
