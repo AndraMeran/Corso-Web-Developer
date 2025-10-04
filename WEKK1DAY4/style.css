@@ -1,0 +1,23 @@
+.logoamazon{
+    background-color: black;
+    display:flex;
+    background-image: url(assets\ 2/.logoamazon);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 40px;
+}
+.menunavigazione{
+    background-color: dimgray;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin: 0;
+
+}
+.vocimenu{
+    padding-left: 9px;
+    padding-right: 9px;
+    
+}
