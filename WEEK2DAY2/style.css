@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+}
+.imagine{
+    height: 100%; 
+}
+.bottonsave{
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    opacity: 0;
+    padding: 20px 25px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.container:hover .bottonsave{
+    opacity: 1;
+}
+.barra-inferiore{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    bottom: 30px;
+    opacity: 0;
+}
+.barra-inferiore div{
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 25px;
+    font-size: 20px;
+}
+div.relink{
+    padding: 10px 15px;
+    font-weight: 300;
+}
+.container:hover .barra-inferiore{
+    opacity: 1;
+}
