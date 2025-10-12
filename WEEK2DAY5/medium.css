@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenuto{
+    height: 1500px;
+    width: 700px;
+    background-color: aliceblue;
+}
+header img{
+    width: 100px;
+}
+header .container{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header{
+    border-bottom: solid 1px grey;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.resume{
+    font-size: 10px;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 6px;
+}
+.login{
+    background-color: red;
+    font-size: 15px;
+    color: white;
+    border: 1 black solid;
+    border-radius: 50px;
+    padding: 5px;
+}
+h5{
+    font-size: 13px;
+    padding: 10px;
+    border-top: 60px;
+    margin-top: 30px;
+    border-bottom: solid grey;
+    font-weight: 500;
+    color: #555;
+}
+span{
+  color: black;
+  font-weight: 600;
+}
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 40px;
+}
+.sidebar{
+  flex: 1;
+  background-color: #f8f8f8;
+  padding: 20px;
+}
+.contenuto-card p{
+    font-size: 13px;
+    color: #888;
+}
+.contenuto{
+  flex: 3;
+}
+.layout-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+}
+.contenuto-card{
+  flex: 2;
+}
+.avatar{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.avatar img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+.avatar p{
+    font-size: 12px;
+}
+.info-bottom{
+  font-size: 0.9em;
+  color: #888;
+}
+.img-card{
+  flex: 1;
+}
+.img-card img{
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.info-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.info-bottom span{
+    color: #888;
+    font-size: 10px;
+    line-height: 10px;
+}
+.logo-side{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+.logo-side img{
+  width: auto;
+  height: 28px;
+}
+.sidebar p{
+    font-size: 15px;
+    text-align: center;
+    padding: 10px;
+    margin: 2px;
+    color: #888;
+}
+.icon-twiter{
+    font-size: 10px;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+.connect-twiter{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.later{
+    font-size: 10px;
+    text-align: center;
+    padding: 5px 20px;
+    margin: 5px;
+    border-bottom: 1px solid #eee;
+}
+.topics{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+}
+.categorie{
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 10px;
+    border: 1px solid rgba(230, 230, 230, 1);
+    color: #888;
+    background-color: rgb(228, 224, 224);
+    margin-bottom: 7px;
+    margin-right: 7px;
+    border-radius: 15px;
+}
+.fan{
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+  padding: 20px 0;
+  margin-top: 15px;
+}
+.chi-segue{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px o;
+}
+.chi-segue h6{
+  margin: 0;
+  font-size: 13px;
+}
+.chi-segue p{
+    font-size: 11px;
+    margin: 0;
+}
+.chi-segue .resume{
+    font-size: 10px;
+    color: black;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    border-radius: 20px;
+    padding: 4px 12px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+.saved p{
+  font-size: 14px;
+  color: black;
+  text-align: left;
+}
+.layout-saved{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.saved img{
+  border-radius: 10px;
+}
+span{
+  font-size: 12px;
+  color: blue;
+}
+.fine{
+display: flex;
+flex-direction: row;
+padding-top: 24px;
+margin: 5px;
+}
+.ultimi{
+font-size: 8px;
+color: grey;
+line-height: 10px;
+padding: 5px 5px;
+margin-bottom: 7px;
+margin-right: 3px
+}
+
